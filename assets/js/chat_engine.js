@@ -21,7 +21,7 @@ class ChatEngine{
             })
 
             self.socket.on('user_joined',function (data) {
-                console.log('a user joined!',data);
+                // console.log('a user joined!',data);
             })
         })
         
@@ -38,7 +38,7 @@ class ChatEngine{
         })
 
         self.socket.on('recieve_message',function (data) {
-            console.log('message recieved',data.message);
+            // console.log('message recieved',data.message);
 
             let newMessage = $('<li>');
 

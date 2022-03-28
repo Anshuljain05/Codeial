@@ -18,7 +18,7 @@ module.exports.chatSockets = function (socketServer) {
   
       socket.on('join_room',function (data) {
   
-        console.log('Joining Request Recieved By codeial',data);
+        // console.log('Joining Request Recieved By codeial',data);
   
         socket.join(data.chatroom)
   

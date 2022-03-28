@@ -2378,3 +2378,51 @@
 ::1 - - [26/Mar/2022:12:43:44 +0000] "GET /css/header-5624c7deef.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36/8mqNiKuL-99"
 ::1 - - [26/Mar/2022:12:43:44 +0000] "GET /css/layout-ad7fced993.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36/8mqNiKuL-99"
 ::1 - - [26/Mar/2022:12:43:44 +0000] "GET /css/footer-80b8801692.css HTTP/1.1" 404 164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36/8mqNiKuL-99"
+[0mGET / [32m200[0m 84.585 ms - 8680[0m
+[0mGET / [36m304[0m 19.701 ms - -[0m
+[0mGET /users/sign-in [32m200[0m 5.502 ms - 2310[0m
+[0mGET /users/css/layout.css [33m404[0m 6.876 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 7.012 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 12.434 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 8.120 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 5.805 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 2.895 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 3.695 ms - 159[0m
+[0mGET /users/sign-in [36m304[0m 4.890 ms - -[0m
+[0mGET /users/css/layout.css [33m404[0m 9.168 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 7.246 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 5.648 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 9.811 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 6.623 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 6.483 ms - 159[0m
+[0mGET /users/sign-in [32m200[0m 6.352 ms - 2310[0m
+[0mGET /users/css/layout.css [33m404[0m 10.749 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 9.086 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 6.712 ms - 159[0m
+[0mGET /users/css/layout.css [33m404[0m 4.532 ms - 159[0m
+[0mGET /users/css/header.css [33m404[0m 3.450 ms - 159[0m
+[0mGET /users/css/footer.css [33m404[0m 3.825 ms - 159[0m
+[0mGET /favicon.ico [33m404[0m 2.810 ms - 150[0m
+[0mGET /users/sign-in [32m200[0m 14.479 ms - 2313[0m
+[0mGET / [32m200[0m 39.499 ms - 8689[0m
+[0mGET /users/profile/6217936b665a7422d8c1e541 [36m302[0m 13.069 ms - 72[0m
+[0mGET /users/sign-in [36m304[0m 4.662 ms - -[0m
+[0mGET / [36m304[0m 32.054 ms - -[0m
+[0mGET /users/sign-up [32m200[0m 8.550 ms - 2469[0m
+[0mGET /users/sign-in [36m304[0m 7.021 ms - -[0m
+[0mGET / [36m304[0m 30.473 ms - -[0m
+[0mGET /users/sign-in [36m304[0m 5.028 ms - -[0m
+[0mPOST /users/create-session [36m302[0m 6.891 ms - 46[0m
+[0mGET / [32m200[0m 22.867 ms - 12211[0m
+[0mGET /users/profile/6217936b665a7422d8c1e541 [32m200[0m 18.599 ms - 2177[0m
+[0mGET / [32m200[0m 27.226 ms - 11911[0m
+[0mGET /users/sign-out [36m302[0m 7.264 ms - 46[0m
+[0mGET / [32m200[0m 23.103 ms - 8987[0m
+::1 - - [28/Mar/2022:19:01:41 +0000] "GET / HTTP/1.1" 200 3387 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36/8mqLkJuL-86"
+::1 - - [28/Mar/2022:19:01:46 +0000] "GET /users/sign-in HTTP/1.1" 200 2346 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36/8mqLkJuL-86"
+::1 - - [28/Mar/2022:19:01:51 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36/8mqHiSuL-56"
+::1 - - [28/Mar/2022:19:01:51 +0000] "GET / HTTP/1.1" 200 4447 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36/8mqHiSuL-56"
+::1 - - [28/Mar/2022:19:01:53 +0000] "GET /users/profile/623d72807f3c5945c4825cca HTTP/1.1" 200 2607 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36/8mqHiSuL-56"
+::1 - - [28/Mar/2022:19:01:56 +0000] "GET / HTTP/1.1" 200 4147 "http://localhost:8000/users/profile/623d72807f3c5945c4825cca" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36/8mqHiSuL-56"
+::1 - - [28/Mar/2022:19:02:03 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36/8mqHiSuL-56"
+::1 - - [28/Mar/2022:19:02:03 +0000] "GET / HTTP/1.1" 200 3685 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36/8mqHiSuL-56"

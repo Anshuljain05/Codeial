@@ -14,7 +14,7 @@ const accessLogStream = rfs.createStream('access.log', {
 
 const development = {
     name: 'development',
-    asset_path: '/assets',
+    asset_path: './assets',
     session_cookie_key: 'blahsomething',
     db: 'codeial_development',
     smtp: {
@@ -62,7 +62,7 @@ const production = {
     }
 }
 
-console.log(process.env.CodeialAssetPath);
+// console.log(process.env.CodeialAssetPath);
 // console.log(process.env.CodeialEnvironment);
 // module.exports = development;
 module.exports = eval(process.env.CodeialEnvironment == undefined ? development : eval(process.env.CodeialEnvironment));
