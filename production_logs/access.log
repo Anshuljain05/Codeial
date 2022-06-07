@@ -2645,3 +2645,20 @@
 [0mOPTIONS /api/v1//posts?page=1&limit=5 [32m200[0m 0.530 ms - 8[0m
 [0mOPTIONS /api/v1//posts?page=1&limit=5 [32m200[0m 1.405 ms - 8[0m
 [0mOPTIONS /api/v1//posts?page=1&limit=5 [32m200[0m 1.433 ms - 8[0m
+::1 - - [07/Jun/2022:15:18:10 +0000] "GET / HTTP/1.1" 200 3382 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqErPuL-62"
+::1 - - [07/Jun/2022:15:18:11 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqErPuL-62"
+::1 - - [07/Jun/2022:15:18:11 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqErPuL-62"
+::1 - - [07/Jun/2022:15:18:11 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqErPuL-62"
+::1 - - [07/Jun/2022:15:18:11 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqErPuL-62"
+::1 - - [07/Jun/2022:15:18:11 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqErPuL-62"
+[0mGET / [32m200[0m 44.117 ms - 8805[0m
+::1 - - [07/Jun/2022:15:24:56 +0000] "GET / HTTP/1.1" 200 3382 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqEzXuL-46"
+::1 - - [07/Jun/2022:15:24:56 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqEzXuL-46"
+::1 - - [07/Jun/2022:15:24:56 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqEzXuL-46"
+::1 - - [07/Jun/2022:15:24:56 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqEzXuL-46"
+::1 - - [07/Jun/2022:15:24:56 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqEzXuL-46"
+::1 - - [07/Jun/2022:15:24:59 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqEzXuL-46"
+::1 - - [07/Jun/2022:15:24:59 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqEzXuL-46"
+::1 - - [07/Jun/2022:15:24:59 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqEzXuL-46"
+::1 - - [07/Jun/2022:15:24:59 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqEzXuL-46"
+::1 - - [07/Jun/2022:15:24:59 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36/8mqEzXuL-46"
