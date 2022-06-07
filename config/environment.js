@@ -29,7 +29,7 @@ const development = {
     },
     google_client_id: "326106355538-4emu9np2js7rkildft53kdk0vlsoqvgk.apps.googleusercontent.com",
     google_client_secret: "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",
-    google_call_back_url: "http://localhost:8000/users/auth/google/callback",
+    google_call_back_url: "http://35.172.214.243:8000/users/auth/google/callback",
     jwt_secret: 'codeial',
     morgan : {
         mode: 'dev',
